@@ -4,24 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Minimalist || Contact</title>
     <link rel="stylesheet" href="contactme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <nav>
-        <div class="container">
+        <div class="nav-container">
             <div class="nav">
                 <img src="img/logo.svg" alt="">
                 <ul class="nav-ul">
-                    <li>Home</li>
-                    <li>Portfolio</li>
-                    <li>Contact me</li>
+                    <li><a href="./index.html" class="home-link">Home</a></li>
+                    <li><a href="./portfolio.html" class="portfolio-link">Portfolio</a></li>
+                    <li><a href="./contactme.html" class="contact-me-link">Contact me</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <div class="container">
+        <div class="hrr">
+            <hr>
+        </div>
+
+        <div class="touch">
+            <h1>Get in Touch</h1>
+            <div class="touch-title">
+                <p>I’d love to hear about what you’re working on and how I could help. I’m currently <br>looking for a
+                    new role and am open to a wide range of opportunities. My preference <br>would be to find a position
+                    in a company in London. But I’m also happy to hear about <br>opportunites that don’t fit that
+                    description. I’m a hard-working and positive person <br>who will always approach each task with a
+                    sense of purpose and attention to detail. <br>Please do feel free to check out my online profiles
+                    below and get in touch using the <br>form.</p>
+                <div class="touch-title-a">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="hrrr">
+            <hr>
+        </div>
+
+
+        <div class="contact">
+            <h1>Contact Me</h1>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Jane Appleseed" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="email@example.com" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="How can I help?"  required></textarea>
+
+                <button type="submit">SEND MESSAGE</button>
+            </form>
+
+        </div>
+
+    </div>
 
 
 

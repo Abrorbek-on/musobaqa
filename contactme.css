@@ -3,9 +3,12 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: black;
 }
 
-.container {
+.nav-container {
     width: 100%;
     max-width: 1100px;
     margin: 40px auto;
@@ -20,15 +23,138 @@
 
 .nav-ul {
     display: flex;
-    gap: 40px;
+    gap: 45px;
     color: dimgray;
 }
 
-.nav-ul li {
-    letter-spacing: 2px;
+.nav-ul li a {
+    letter-spacing: 3px;
     list-style: none;
-    font-size: 12px;
+    font-size: 10px;
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 100;
     cursor: pointer;
+}
+
+.hrr hr {
+    width: 1100px;
+    height: 2px;
+    background-color: #ededee;
+    border: none;
+    margin: 80px auto;
+}
+
+.touch h1 {
+    letter-spacing: 1.5px;
+    font-family: "Playfair Display", serif;
+    color: #403f4b;
+    margin-left: 400px;
+    font-size: 40px;
+    font-weight: 550;
+    margin-top: -45px;
+}
+
+.touch-title p {
+    line-height: 2;
+    color: #323439;
+    margin-left: 850px;
+    font-size: 16px;
+    margin-top: -45px;
+}
+
+.touch-title-a {
+    margin-left: 850px;
+    margin-top: 20px;
+
+}
+
+.touch-title-a a {
+    font-size: 27px;
+}
+
+.touch-title-a a i {
+    color: #323439;
+    font-size: 27px;
+}
+
+.hrrr hr {
+    width: 1100px;
+    height: 2px;
+    background-color: #ededee;
+    border: none;
+    margin: 45px auto;
+}
+
+.contact h1 {
+    letter-spacing: 1.5px;
+    font-family: "Playfair Display", serif;
+    color: #403f4b;
+    margin-left: 400px;
+    font-size: 40px;
+    font-weight: 550;
+    margin-top: -15px;
+}
+
+form {
+    max-width: 500px;
+    margin: 40px auto;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-left: 900px;
+    margin-top: -50px;
+}
+
+label {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #656474;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 615px;
+    height: 50px;
+}
+
+input,
+textarea {
+    /* maksimum cho‘zilishi */
+    resize: vertical;
+    /* faqat yuqoriga-pastga cho‘ziladi */
+    padding: 12px;
+    background-color: #e6e6e6;
+    border: none;
+    font-size: 13px;
+    outline: none;
+}
+
+textarea {
+    height: 140px;
+    width: 615px;
+    /* enini doim to‘liq ushlab turadi */
+    min-height: 100px;
+    max-height: 400px;
+}
+
+
+input:focus,
+textarea:focus {
+    border: 2px dashed #000;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #333;
+}
+
+button {
+    margin-top: 30px;
+    padding: 12px;
+    border: 1px solid #000;
+    background: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
