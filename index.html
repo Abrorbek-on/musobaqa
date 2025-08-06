@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -32,7 +35,7 @@
                 <p class="main-p">Hey, I’m Alex <br> Spencer and I <br> love building <br> beautiful websites</p>
             </div>
             <div class="main-icon-btn">
-                <button class="main-btn"><a href="About" class="main-a">About me</a></button>
+                <button class="main-btn"><a href="#about" class="main-a">About me</a></button>
                 <img class="main-icon" src="img/icon.svg" alt="icon">
             </div>
         </div>
@@ -44,7 +47,7 @@
                     <img class="hero-img" src="img/man.jpg" alt="">
                 </div>
                 <div class="description">
-                    <p class="hero-p"><strong class="hero-about">About Me</strong> <br><br> I’m a junior front-end
+                    <p class="hero-p"><strong id="about" class="hero-about">About Me</strong> <br><br> I’m a junior front-end
                         developer looking for a <br> new role in an exciting
                         company. I focus on <br> writing accessible HTML, using modern CSS <br> practices and writing
                         clean
@@ -69,18 +72,26 @@
 
     </main>
 
-    <!-- <footer>
-        <div class=" footer-container">
-            <div class="footer">
-                <img src="img/logo.svg" alt="">
-                <ul class="footer-ul">
-                    <li>Home</li>
-                    <li>Portfolio</li>
-                    <li>Contact me</li>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <img src="img/logo-white.svg" alt="Logo" class="footer-logo">
+                <ul class="footer-nav">
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="./contactme.html">CONTACT ME</a></li>
                 </ul>
             </div>
+            <div class="footer-right">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
         </div>
-    </footer> -->
+    </footer>
 
-</body> 
+
+
+</body>
+
 </html>
