@@ -31,3 +31,16 @@
     font-weight: 900;
     cursor: pointer;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* MAIN */
+
+.main-container {
+    /* right: 30%; */
+    height: ;
+}
