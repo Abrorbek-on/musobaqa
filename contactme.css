@@ -8,6 +8,10 @@
     color: black;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .nav-container {
     width: 100%;
     max-width: 1100px;
@@ -120,9 +124,7 @@ input {
 
 input,
 textarea {
-    /* maksimum cho‘zilishi */
     resize: vertical;
-    /* faqat yuqoriga-pastga cho‘ziladi */
     padding: 12px;
     background-color: #e6e6e6;
     border: none;
@@ -133,9 +135,9 @@ textarea {
 textarea {
     height: 140px;
     width: 615px;
-    /* enini doim to‘liq ushlab turadi */
     min-height: 100px;
     max-height: 400px;
+    margin-bottom: 40px;
 }
 
 
@@ -149,12 +151,76 @@ textarea:focus {
     border-color: #333;
 }
 
-button {
-    margin-top: 30px;
-    padding: 12px;
-    border: 1px solid #000;
-    background: transparent;
-    cursor: pointer;
-    font-weight: bold;
+.send-btn {
+    width: 200px;
+    height: 50px;
+    background-color: #2c2b33;
+    color: #fff;
+    padding: 12px 24px;
+    border: 1px solid #2c2b33;
+    text-transform: uppercase;
     letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+
+.send-btn:hover {
+    background-color: transparent;
+    color: #2c2b33;
+}
+
+.footer {
+    background-color: #2c2b33;
+    padding: 30px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer-logo {
+    height: 30px;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.footer-nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.footer-nav li a:hover {
+    color:
+        #58a385;
+}
+
+.footer-right a i {
+    color: #fff;
+    font-size: 28px;
+    transition: color 0.3s ease;
+}
+
+.footer-right a:hover {
+    color: #ffb703;
+
 }
