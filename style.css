@@ -142,7 +142,7 @@ a {
 
 /* LOW */
 .low {
-    /* height: 200px; */
+    height: 200px;
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
@@ -172,7 +172,6 @@ a {
 .footer {
     background-color: #2c2b33;
     padding: 30px 0;
-    margin-top: 60px;
 }
 
 .footer-container {
