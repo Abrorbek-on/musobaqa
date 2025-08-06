@@ -42,5 +42,11 @@ a {
 
 .main-container {
     /* right: 30%; */
-    height: ;
+    height: 300px;
+    width: 100%;
+}
+
+.main-img {
+    height: 300px;
+    width: 100%;
 }
