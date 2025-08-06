@@ -77,6 +77,14 @@ a {
     left: -12px;
 }
 
+.description{
+    border: solid #00000091 1px;
+    border-left: none;
+    border-right: none;
+}
+
+
+
 .main-a {
     color: white;
 }
@@ -85,29 +93,14 @@ a {
     margin-right: 40%;
     background-color: black;
     z-index: 3;
-    top: 220px;
+    top: 240px;
     position: relative;
-    right: 21%;
+    right: 21.5%;
     width: 3.5%;
-    transition: transform 0.3s ease;
+    height: 46px;
 }
-
-.main-icon:hover {
-    transform: scale(1.2);
-}
-
-
-.main-icon-btn {
-    display: flex;
-    margin-left: 15px;
-}
-
 
 /* HERO */
-
-.hero-container {
-    height: 1000px;
-}
 
 .hero-img {
     margin-top: 400px;
@@ -144,3 +137,46 @@ a {
     color: white;
 }
 
+
+/* LOW */
+.low {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.low-p {
+    font-size: 40px;
+}
+
+.low-btn {
+    height: 50px;
+    width: 20%;
+    margin-top: 20px;
+}
+
+.low-btn:hover {
+    background-color: black;
+}
+
+.low-btn:hover a {
+    color: white;
+}
+
+
+/* FOOTER */
+
+/* .footer {
+    display: flex;
+    background-color: rgb(58, 63, 73);
+    height: 100px;
+}
+
+.footer-ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+} */
