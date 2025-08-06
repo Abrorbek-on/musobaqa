@@ -6,9 +6,9 @@
 }
 
 .container {
-    width: 90%;
-    max-width: 1000px;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 1100px;
+    margin: 40px auto;
 }
 
 .nav {
@@ -20,11 +20,12 @@
 
 .nav-ul {
     display: flex;
-    gap: 25px;
+    gap: 40px;
     color: dimgray;
 }
 
 .nav-ul li {
+    letter-spacing: 2px;
     list-style: none;
     font-size: 12px;
     text-transform: uppercase;
